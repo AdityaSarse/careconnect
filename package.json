@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "server": "nodemon server/index.js",
-    "dev:full": "concurrently \"npm run dev\" \"npm run server\""
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@types/node": "latest",
